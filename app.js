@@ -21,9 +21,9 @@ var userRouter = require('./routes/user');
 var classrouter = require('./routes/classroom')
 
 var app = express();
-	
+	mongoose.connect('connect here data base')
 
-mongoose.connect('mongodb+srv://eattend:eattend@cluster0.lmz7p2a.mongodb.net/?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true})
+//mongoose.connect('mongodb+srv://eattend:eattend@cluster0.lmz7p2a.mongodb.net/?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true})
 	
 	//mongoose.connect('mongodb://localhost:27017/eattendance',{useNewUrlParser: true, useUnifiedTopology: true})
   
